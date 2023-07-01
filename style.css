@@ -78,8 +78,13 @@ p {
   color: rgb(0, 0, 0);
   text-indent: 17px;
 }
+img{
+    width: 370px;
+    height: 270px;
+}
 .img:hover {
-  height: 300px;
+  height: 280px;
+  width: 440px;
   /* transition: ease-in 0.2s; */
   transition: ease-in-out 0.8s;
 }
