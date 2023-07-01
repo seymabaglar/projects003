@@ -88,10 +88,18 @@ img{
   /* transition: ease-in 0.2s; */
   transition: ease-in-out 0.8s;
 }
-.button:hover {
-  height: 50px;
-  width: 115px;
+.button:hover a{
+
+  color: white;
 }
+.button:hover{
+    height: 50px;
+    width: 115px;
+    transition: ease-in-out 0.5s;
+}
+/* .button a:hover{
+    color: white;
+} */
 .card {
   display: inline-block;
   width: 1215.35px;
